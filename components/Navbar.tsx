@@ -253,11 +253,11 @@ export default function Navbar() {
         </svg>
     );
 
-    const InfoText = () => (
-        <div className="flex flex-row">
+    // const InfoText = () => (
+    //     <div className="flex flex-row">
             
-        </div>
-    );
+    //     </div>
+    // );
 
     return (
         <>
@@ -411,7 +411,7 @@ export default function Navbar() {
                         <div className="mb-6">
                             <div className="flex items-end justify-between">
                                 <div ref={bottomLeftTextRef} className="text-white text-sm font-F37Judge leading-[16px] tracking-wide overflow-hidden">
-                                    Let's start building<br />
+                                    Let&apos;s start building<br />
                                     something amazing together.
                                 </div>
                                 <Link href='mailto:cyriacalen13@outlook.com' className="flex items-center">
