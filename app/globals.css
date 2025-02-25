@@ -34,6 +34,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Neue';
+  src: url('/fonts/ppneuemontreal-book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   margin: 0;

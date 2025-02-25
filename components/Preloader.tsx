@@ -107,12 +107,12 @@ export default function Preloader() {
                 ease: 'power2.inOut',
             });
 
-            const delays = [0, 0.5, 1];
+            const delays = [0, 0.2, 0.5];
             revealerRefs.current.forEach((el, i) => {
                 if (el) {
                     tl.to(el, {
                         scale: 45,
-                        duration: 1.5,
+                        duration: 1,
                         ease: 'power4.inOut',
                     }, delays[i]);
                 }

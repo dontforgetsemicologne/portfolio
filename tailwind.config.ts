@@ -15,6 +15,7 @@ export default {
 			'F37ExtendedBold': ['F37JudgeBoldExtendedItalic', 'sans-serif'],
 			'F37ExtendedMedium': ['F37JudgeMediumExtended', 'sans-serif'],
 			'F37Judge': ['F37Judge', 'sans-serif'],
+			'Neue': ['Neue', 'sans-serif']
 		},
   		colors: {
   			background: 'hsl(var(--background))',
